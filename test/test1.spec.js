@@ -6,9 +6,11 @@ describe( "TDD Development, first test case for Spiderverse class", () => {
 
         // Aqui escribimos el codigo que queremos usar
         const superhero = new Superhero("Spiderman", 31, "Toby Maguire");
+
         expect(superhero.name).toBe("Spiderman");
         expect(superhero.age).toBe(31);
         expect(superhero.actor).toBe("Toby Maguire");
+        expect(superhero.getInfo()).toBe("Hi my name is Toby Maguire from Marvel Studios")
     })
 })
 
