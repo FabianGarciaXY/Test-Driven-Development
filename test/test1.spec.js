@@ -1,12 +1,9 @@
-const Superhero = require("./../app/superHero")
 
-describe("Unite Test", () => {
-
-    test("Case1: Get a hero", ()=> {
-        const ironman = new Superhero("Iron Man", "Robert D. Jr", "Tony Stark")
-
-        expect(ironman.name).toBe("Iron Man")
-        expect(ironman.actor).toBe("Robert D. Jr")
-        expect(ironman.heroName).toBe("Tony Stark")
+describe( "TDD Development, first test case for Spiderverse class", () => {
+    
+    test("Test 1", () => {
+        const result = 1 + 1;
+        expect(result).toBe(5);
     })
 })
+
